@@ -78,6 +78,42 @@
   margin-top: var(--spacing-sm);
 }
 
+.lifetime-counter {
+  margin-top: var(--spacing-md);
+  text-align: center;
+  border: 2px solid var(--color-turquoise);
+}
+
+.lifetime-counter__label {
+  font-size: 0.8rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  color: var(--color-purple);
+  margin-bottom: 4px;
+}
+
+.lifetime-counter__birth {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-blue-dark);
+  margin-bottom: var(--spacing-sm);
+}
+
+.lifetime-counter__value {
+  font-size: clamp(0.95rem, 3.2vw, 1.15rem);
+  font-weight: 800;
+  color: var(--color-blue-dark);
+  line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+}
+
+.lifetime-counter__note {
+  margin-top: var(--spacing-xs);
+  font-size: 0.7rem;
+  font-style: italic;
+  color: var(--color-text-secondary);
+}
+
 /* Poster */
 .poster__frame {
   text-align: center;

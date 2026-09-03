@@ -1,5 +1,5 @@
 import { renderIntro, initIntro } from './components/Intro.js';
-import { renderHero } from './components/Hero.js';
+import { renderHero, initHero } from './components/Hero.js';
 import { renderPoster, initPoster } from './components/Poster.js';
 import { renderStats } from './components/Stats.js';
 import { renderDocumentary, initDocumentary } from './components/Documentary.js';
@@ -42,6 +42,7 @@ export function initApp() {
   `;
 
   initIntro(handleEnter);
+  initHero();
   initPoster();
   initDocumentary(() => {
     state.videoPlayed = true;
