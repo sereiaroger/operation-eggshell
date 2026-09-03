@@ -12,7 +12,7 @@ export function renderHero() {
 
         <div class="lifetime-counter card" aria-live="polite" aria-atomic="true">
           <p class="lifetime-counter__label">⏱️ TEMPO DE EXISTÊNCIA OFICIAL</p>
-          <p class="lifetime-counter__birth">Desde 01/09/2000 às 13h</p>
+          <p class="lifetime-counter__birth">Desde 01/09/2000 às 13h (horário de Brasília)</p>
           <p class="lifetime-counter__value" id="lifetime-counter">calculando...</p>
           <p class="lifetime-counter__note">* Contagem em tempo real. Impossível pausar.</p>
         </div>

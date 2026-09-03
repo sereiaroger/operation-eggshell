@@ -1,5 +1,6 @@
-/** Nicolas nasceu em 01/09/2000 às 13h (horário de Brasília) */
-const BIRTH_DATE = new Date('2000-09-01T13:00:00-03:00');
+/** Fuso: America/Sao_Paulo (horário de Brasília, UTC-3) */
+const BRASILIA_OFFSET = '-03:00';
+const BIRTH_DATE = new Date(`2000-09-01T13:00:00${BRASILIA_OFFSET}`);
 
 function plural(value, singular, pluralForm) {
   return value === 1 ? singular : pluralForm;
