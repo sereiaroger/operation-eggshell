@@ -924,7 +924,7 @@ Usar os nomes presentes no cartaz:
 - Paulina
 - Victor
 - Iury
-- Thiago
+- Tiago
 
 Se existirem outros amigos que participaram da surpresa, adicionar.
 
@@ -1590,7 +1590,7 @@ npm run preview
 
 ## Deploy
 
-O projeto deve ser preparado para GitHub Pages por GitHub Actions. A pipeline deve: 
+O projeto deve ser preparado para GitHub Pages por GitHub Actions. A pipeline deve:
 
 1. fazer checkout;
 2. configurar Node.js;

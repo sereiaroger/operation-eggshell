@@ -1,13 +1,18 @@
 export function renderFriendsMessage() {
   const friends = [
-    { name: 'Felipe', color: '#E85F5F', textColor: '#194F69', rotate: '-3deg' },
-    { name: 'Matheus', color: '#222222', textColor: '#FFFFFF', rotate: '2deg' },
-    { name: 'Dani', color: '#F2B632', textColor: '#194F69', rotate: '-2deg' },
-    { name: 'Stela', color: '#194F69', textColor: '#FFFFFF', rotate: '3deg' },
-    { name: 'Paulina', color: '#66B447', textColor: '#194F69', rotate: '-4deg' },
-    { name: 'Victor', color: '#888888', textColor: '#FFFFFF', rotate: '1deg' },
-    { name: 'Iury', color: '#4CCCE2', textColor: '#194F69', rotate: '-1deg' },
-    { name: 'Thiago', color: '#F2B632', textColor: '#194F69', rotate: '4deg' },
+    { name: "Felipe", color: "#E85F5F", textColor: "#194F69", rotate: "-3deg" },
+    { name: "Matheus", color: "#222222", textColor: "#FFFFFF", rotate: "2deg" },
+    { name: "Dani", color: "#F2B632", textColor: "#194F69", rotate: "-2deg" },
+    { name: "Stela", color: "#194F69", textColor: "#FFFFFF", rotate: "3deg" },
+    {
+      name: "Paulina",
+      color: "#66B447",
+      textColor: "#194F69",
+      rotate: "-4deg",
+    },
+    { name: "Victor", color: "#888888", textColor: "#FFFFFF", rotate: "1deg" },
+    { name: "Iury", color: "#4CCCE2", textColor: "#194F69", rotate: "-1deg" },
+    { name: "Tiago", color: "#F2B632", textColor: "#194F69", rotate: "4deg" },
   ];
 
   const stickers = friends
@@ -16,9 +21,9 @@ export function renderFriendsMessage() {
       <span class="sticker" style="background: ${f.color}; color: ${f.textColor}; transform: rotate(${f.rotate})">
         ${f.name}
       </span>
-    `
+    `,
     )
-    .join('');
+    .join("");
 
   return `
     <section class="section friends reveal" id="friends" aria-labelledby="friends-title">
